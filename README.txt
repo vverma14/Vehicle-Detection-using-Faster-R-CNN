@@ -1,15 +1,12 @@
-The following README gives details about the dataset and the files contained in this folder:
-
 1. Dataset
-	Dataset can be downloaded from the following weblink:
+	Dataset:
 	http://tcd.miovision.com/static/dataset/MIO-TCD-Localization.tar
 	
-	Moreover, the pretrained architecture can be downloaded from:
+	Trained Models:
 	VGG: https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_tf_dim_ordering_tf_kernels.h5
 	ResNet: https://github.com/fchollet/deep-learning-models/releases/download/v0.2/resnet50_weights_tf_dim_ordering_tf_kernels.h5
 	
 2. SourceCode
-	This folder contains the Source Code of the implementation for this project:
 	- train_frcnn_resnet.py: Implementation of training procedure when using ResNet architecture.
 	- test_frcnn_resnet.py: Implementation of testing procedure when using ResNet architecture.
 	- train_frcnn_vgg.py: Implementation of training procedure when using VGG architecture.
@@ -33,13 +30,7 @@ The following README gives details about the dataset and the files contained in 
 	a. sample_resnet_results:  Contains 20 sample images that were obtained when ResNet architecture was used.
 	b. sample_vgg_results:  Contains 20 sample images that were obtained when VGG architecture was used.
 
-4. Report and PPT
-	This folder contains the Report and Presentation of the Project.
-	
-5. Compiling Instructions
-	After downloading and unzipping the dataset make sure to place the dataset inside the src directory. Also create empty folders "model" to store the pretrained model weights and "model_trained" to save the weights of training procedure.
-
-6. References
+4. References
 	- https://github.com/yhenon/keras-frcnn
 	- https://github.com/keras-team/keras/tree/master/keras/applications
 	- https://github.com/jinfagang/keras_frcnn
